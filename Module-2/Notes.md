@@ -45,5 +45,28 @@
 
 <img width="867" height="452" alt="image" src="https://github.com/user-attachments/assets/4e879c6e-09d1-40be-8cd6-b5f03f9a9589" />
 
+### ARP Poisoning
+- ARP poisoning is an attack in which the attacker tries to associate their own MAC address with the victim’s IP address so that the traffic meant for that IP address is sent to the attacker. ARP (Address Resolution Protocol) is a TCP/IP protocol that maps IP network addresses to the addresses (hardware addresses) used by the data link protocol. Using this protocol, attackers can easily get the MAC address of any device within a network.
 
+<img width="897" height="442" alt="image" src="https://github.com/user-attachments/assets/fd6a653d-4b11-47a0-8b11-2611e78c3f32" />
+
+### DHCP Starvation Attacks
+- In a DHCP starvation attack, an attacker floods the DHCP server by sending many DHCP requests and uses all the available IP addresses that the DHCP server can issue. As a result, the server cannot issue any more IP addresses, leading to a denial of service (DoS) attack. Because of this issue, valid users cannot obtain or renew their IP addresses, and thus fail to access their network.
+
+<img width="876" height="424" alt="image" src="https://github.com/user-attachments/assets/3a16660f-ba87-4d97-a403-ec033b19976d" />
+
+### DHCP Spoofing Attack
+- A DHCP Spoofing attack is also known as a rogue DHCP server attack. In a rogue DHCP server attack, an attacker will introduce a rogue server in the network. This rogue server could respond to client’s DHCP discovery requests. Though both the servers respond to the request, that is, the rogue server and the actual DHCP server, the server that responds first will be taken by the client. If the rogue server gives the response earlier than the actual DHCP server, the client takes the response from the rogue server instead. The information provided to the clients by this rogue server can disrupt their network access, causing a DoS.
+
+<img width="929" height="401" alt="image" src="https://github.com/user-attachments/assets/464bd340-8778-430d-a780-55dad79eabfc" />
+
+### Switch Port Stealing
+- Switch port stealing is a sniffing technique used by an attacker who spoofs both the IP address and MAC address of the target machine. Using a port stealing attack, attackers steal traffic destined to a specific port of an Ethernet switch. It allows an attacker to sniff the packets that were originally destined for another computer. An attacker takes advantage of a switch’s incapability of updating its address table dynamically. Ethernet switches learn and maintain information about who is connected to the port. This information includes the IP and Mac addresses of the computers connected to the network.
+
+<img width="874" height="381" alt="image" src="https://github.com/user-attachments/assets/d31203db-c236-4a11-bc13-32bfdd13f0ad" />
+
+### MAC Spoofing/Duplicating
+- Spoofing attacks allow attackers to spread malware, bypass authentication checks, or steal sensitive information. The attacker pretends to be a legitimate user on a network and gets access to restricted resources to perform malicious activities. MAC duplicating refers to spoofing the MAC address with the MAC address of a legitimate user on the network. It involves sniffing a network for the MAC addresses of legitimate clients connected to the network. In this attack, the attacker first retrieves the MAC addresses of clients who are actively associated with the switch port. 
+
+<img width="885" height="361" alt="image" src="https://github.com/user-attachments/assets/4b624876-5a26-426f-b120-8fc01a094e72" />
 
