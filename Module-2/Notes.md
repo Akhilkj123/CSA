@@ -1,4 +1,4 @@
-<img width="862" height="447" alt="image" src="https://github.com/user-attachments/assets/62c59678-ac90-431d-837e-bc505a118b4a" /><img width="862" height="447" alt="image" src="https://github.com/user-attachments/assets/62c59678-ac90-431d-837e-bc505a118b4a" /><img width="862" height="447" alt="image" src="https://github.com/user-attachments/assets/b465bfb4-05d0-4086-8f5e-a4f4fe96dd5b" /><img width="862" height="447" alt="image" src="https://github.com/user-attachments/assets/b465bfb4-05d0-4086-8f5e-a4f4fe96dd5b" />### Cyber Security Attack Vectors
+### Cyber Security Attack Vectors
 - **Cloud Computing Threats** - Cloud computing is an on-demand delivery of IT capabilities in which IT infrastructure and applications are provided to subscribers as a metered service over a network. 
 - **Advanced Persistent Threat** - Advanced persistent threat is a threat that focuses on stealing information from the victim machine without its user being aware of it. APTs exploit vulnerabilities in the applications running on a computer, operating system, and embedded systems.
 - **Viruses and Worms** - Viruses and worms are the most prevalent networking threats, capable of infecting a network within seconds. A virus is a self-replicating program that produces a copy of itself by attaching to another program, computer boot sector, or document.
@@ -43,6 +43,7 @@
 - The DNS system uses cache memory to hold the recently resolved domain names. It is populated with recently used domain names and respective IP address entries.
 -  When the user request is received, the DNS resolver first checks the DNS cache; if the domain name that the user requested is found in the cache, then the resolver sends its respective IP address quickly, reducing the traffic and time for DNS resolving.
 
+<img width="867" height="452" alt="image" src="https://github.com/user-attachments/assets/4e879c6e-09d1-40be-8cd6-b5f03f9a9589" />
 
 
 
