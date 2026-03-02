@@ -119,9 +119,104 @@
 #### Characteristics of Advanced Persistent Threats (APTs)
 - Objectives, Timeliness, Resources, Risk Tolerance, Skills and Methods,  Actions, Attack Origination Points, Numbers Involved in the Attack,  Knowledge Source,  Multiphase, Tailored to the Vulnerabilities, Multiple Points of Entries, Evading Signature-based Detection Systems
 
+#### Advanced Persistent Threat Lifecycle 
+- In the current threat landscape, organizations need to concentrate more on APTs. Advanced persistent threats may target an organization’s IT assets, financial assets, intellectual property, and reputation.
 
-  
-  
+<img width="811" height="479" alt="image" src="https://github.com/user-attachments/assets/0b64b920-404e-47c2-b8d1-d50f335453df" />
+
+### Supply Chain Attack
+- A supply chain attack is a type of cyberattack in which an attacker infiltrates an organization's network by targeting its suppliers, third-party vendors, or elements within the supply chain. The supply chain encompasses a complex and interconnected network involving individuals, organizations, resources, activities, and technology, all working together in the production and distribution of products.
+#### Working of Supply Chain Attack
+- Attackers often compromise third-party vendors' software to gain unauthorized access to the supply chain, subsequently distributing malware within the network, which can lead to data breaches. Typically, attackers focus on targeting third parties with perceived weaker cybersecurity measures. Once they identify the weakest link in the supply chain, they concentrate their efforts on launching a supply chain attack against the ultimate target. 
+
+<img width="320" height="410" alt="image" src="https://github.com/user-attachments/assets/e5cca154-bc43-4dbe-b137-3d98dae38da9" />
+
+<img width="976" height="410" alt="image" src="https://github.com/user-attachments/assets/af48d74f-7460-4e6a-8e78-72db675a7093" />
+
+<img width="1004" height="442" alt="image" src="https://github.com/user-attachments/assets/a750f043-4ee9-49ba-ac6f-f8038e198fdc" />
+
+## Understand Host Attack Tactics, Techniques, and Procedures (TTPs)
+### Common Threats Specific to Host Security
+#### Malware Attack (Infection) 
+- Viruses, Worms, Worms, Spyware, Backdoor, Ransomware, Adware, Rootkits, Fileless malware.
+
+#### Unauthorized Access
+- Unauthorized access refers to gaining unauthorized access to restricted files, data, operation, services, and so on running on host. These attacks are designed to bypass security measures and gain access to sensitive data, critical system functions, or other restricted areas of a host.
+#### Brute Force Attacks
+- A brute force attack is a method used by attackers to gain unauthorized access by systematically trying all possible combinations of passwords or encryption keys until the correct one is found. This attack exploits weak passwords or poorly secured authentication systems, where attackers use automated tools to generate and test vast numbers of possible passwords at high speed.
+#### Privilege Escalation
+- Privilege escalation attacks occur after an attacker gains unauthorized access through methods like brute force, where they might to the complete takeover of critical initially have limited user privileges. By exploiting vulnerabilities within the host system, such as software bugs, configuration errors, or unpatched security flaws, the attacker can escalate their privileges to gain administrative or root-level access.
+#### Host-based DoS attacks
+- In host-based DoS attack, the attacker exhausts vulnerabilities in the implementation of the victim’s system’s OS, memory
+resources by exploiting algorithms, structure, authentication protocols, and so on. 
+- **Ping of Death** - In ping implementation, the maximum accepted size of IP packet is 65535 bytes. This IP packet comprises packet header of 20 bytes and pseudo header of 8 bytes. Thus, 65507 bytes (65535-20-8 = 65507) is the maximum accepted size of an ICMP Echo request
+
+<img width="851" height="120" alt="image" src="https://github.com/user-attachments/assets/9a77f0b0-c3a2-4f4e-b41f-edec67356cdc" />
+
+- **Teardrop Attack** - The IP header contains multiple fields, among which one is “fragment offset” field. This field specifies that the offset means beginning point of a particular fragment correspond to actual unfragmented IP datagram.
+
+<img width="878" height="528" alt="image" src="https://github.com/user-attachments/assets/dd343136-6d8f-4cfa-bb84-95838be65a0b" />
+#### Brute-Force Attacks
+- A brute-force attack is a systematic method of attempting to gain unauthorized access to a system by exhaustively trying all possible combinations of passwords or encryption keys.
+<img width="830" height="193" alt="image" src="https://github.com/user-attachments/assets/6090bf74-465c-4d12-a0d6-dd28fbcc53a8" />
+
+#### Spyware Attacks
+- Spyware is designed to operate stealthily, often going undetected for extended periods. The primary tactic of a spyware attack is to infiltrate the host system without alerting the user or security mechanisms. Spyware can capture a wide range of information, including keystrokes (keylogging), screenshots, browser history, passwords, and financial details
+<img width="726" height="250" alt="image" src="https://github.com/user-attachments/assets/a0e5d1a5-2ae7-452e-a45c-9d1a84425f5d" />
+
+#### Ransomware Attacks
+- Ransomware attacks are a prevalent and highly destructive form of cyber threat, characterized by the encryption of a victim's data or system, followed by a demand for ransom payment in exchange for the decryption key. The coercion tactic is the core of a ransomware attack. 
+<img width="926" height="232" alt="image" src="https://github.com/user-attachments/assets/fd616543-f515-4d46-a6d8-550053827112" />
+
+#### Where Do They Come From?
+-  Un-patched computers,  Email, Network file sharing,  Internet downloads, Social engineering, Blended threats
+
+#### SQL Injection Attacks
+- SQL injection attacks use a series of malicious SQL queries or SQL statements to directly manipulate the database. Applications often use SQL statements to authenticate users to the application, validate roles and access levels, store, obtain information for the application and user, and link to other data sources.
+
+<img width="982" height="331" alt="image" src="https://github.com/user-attachments/assets/4af1867a-e6d3-4ea4-b045-2e6c26f45da3" />
+
+#### Cross-site Scripting (XSS) Attacks
+- Cross-site scripting ('XSS' or 'CSS') attacks exploit vulnerabilities in dynamically generated web pages, which enable malicious attackers to inject client-side script into web pages viewed by other users. It occurs when invalidated input data is included in dynamic content that is sent to a user’s web browser for rendering.
+- **How XSS Attacks Work** - A web page consists of text and HTML markup, created by the server, and obtained by the client browser. Servers can control client's interpretation about the statically generated pages but cannot completely control client's interpretation about the output of the page generated dynamically by the servers. Thus, if the attackers insert untrusted content into a dynamic page, neither the server nor the client recognizes it. Untrusted input can come from URL parameters, form elements, cookies, databases queries, and so on.
+<img width="882" height="518" alt="image" src="https://github.com/user-attachments/assets/1a23f244-0789-436e-b909-83519df3b219" />
+
+- **Cross-Site Scripting Attack Scenario: Attack via Email** - In a cross-site scripting attack that employs email, the attacker crafts an email that contains a link to malicious script and sends it to the victim, luring the victim to click the link containing the malicious script/query.
+<img width="920" height="379" alt="image" src="https://github.com/user-attachments/assets/80fdd275-1803-4807-86d6-98edff3f98ce" />
+<img width="859" height="482" alt="image" src="https://github.com/user-attachments/assets/6c54e8fe-f086-4234-b72a-6651f7c5f276" />
+<img width="858" height="488" alt="image" src="https://github.com/user-attachments/assets/7f8e25f8-10b5-4c97-b939-b4ac572f6a2a" />
+<img width="949" height="564" alt="image" src="https://github.com/user-attachments/assets/ec62c1ce-5060-4096-af75-dbc0bfa346a7" />
+
+- **XSS Attack in Blog Posting** - The attacker finds XSS vulnerability in the techpost.org website, constructs a malicious script <script>onload=window.location='http://www.certifiedhacker.com‘</scrip t>, and adds it in the comment field of TechPost. This malicious script posted by the attacker is stored on the web-application database server and runs in background.
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/9b4da9ac-7410-4522-8c39-2d34cf76a5e0" />
+
+- **XSS Attack in Comment Field** - Many web applications use HTML pages that dynamically accept data from different sources. One can change the data in the HTML pages according to the request. Attackers use HTML web page tags to manipulate data. They launch the attack by changing the comments feature using malicious script.
+<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/dffda502-6ebd-45cb-a217-fe17d760caa8" />
+
+#### Cross-site Request Forgery (CSRF) Attack
+- Cross-Site Request Forgery (CSRF) attack is also known as one-click attack or session riding or XSRF. In this type of attack, a malicious entity forces an end user to perform activities on behalf of the hacker. The level of authority that an end user has decides the effects of the attack. If the end user is a normal user, then the successful CSRF attack forces the end user to perform state changing requests like fund transfer and changing email address.
+
+<img width="888" height="452" alt="image" src="https://github.com/user-attachments/assets/44d9f65f-2e1f-4347-8345-2ecc31937582" />
+<img width="966" height="602" alt="image" src="https://github.com/user-attachments/assets/d8f2e61b-5932-4b89-a9cc-a0e866f1814e" />
+
+#### Application-level DoS Attack
+- A denial-of-service (DoS) attack is an attack on the availability of a service that reduces, restricts, or prevents accessibility of system resources to its legitimate users. The DoS attack mainly targets the application level because it is difficult to identify and detect attacks at the application level.
+- User registration DoS, User enumeration, Login attacks, Account locks out attacks
+
+#### Session Attacks: Cookie Poisoning Attacks
+- Cookie poisoning is a kind of parameter tampering attack, in which the attacker modifies the cookie contents to draw unauthorized information about a user and thereby perform identity theft. Cookies frequently transmit sensitive credentials from client browser to server. Attackers can modify these with ease to gain access to the server or assume the identity of another user.
+
+<img width="937" height="443" alt="image" src="https://github.com/user-attachments/assets/a9dc4616-8d75-4480-a19a-11259bbabb2c" />
+
+
+
+
+
+
+
+
+
+
 
 
 
