@@ -70,3 +70,58 @@
 
 <img width="885" height="361" alt="image" src="https://github.com/user-attachments/assets/4b624876-5a26-426f-b120-8fc01a094e72" />
 
+### Network-based Denial-of-Service Attack (DoS) 
+- In network-based DoS attack, the attacker sends a large amount of traffic to target network than the victim network can handle, thereby exhausting the victim’s connection resources. Attacker does it by exploiting the existing implementation of network protocols.
+#### TCP SYN Flooding
+- In a TCP SYN attack, the attacker sends a succession of SYN requests to a target's system to make the system unavailable for legitimate users. It exploits a known weakness in the TCP connection.
+#### UDP Flooding
+- In UDP flooding attack, an attacker sends multiple user datagram protocol (UDP) packets to the targeted server with the aim of making it unable to process and respond. In normal situations, on receiving a UDP packet at a specific port, a server first validates whether any program is running at that port to respond to the request. If no program is found at that port, then a server will send ICMP (ping) packet to acknowledge the client that the destination is inaccessible.
+#### ICMP Smurf Flooding 
+- In ICMP smurf flooding attack, an attacker sends multiple ICMP Echo request packets to the targeted server with the aim of making it shut down. This type of attack makes use of an IP broadcast network function, where an ICMP Echo (ping) request is sent to every host, to get instant response from each receiver
+#### Intermittent Flooding
+- The intermittent flooding attack is an application layer DDoS attack. It is also known as Very Short Intermittent DDoS attack. In this type of attack, an attacker transmits intermittent floods of valid HTTP requests to the victim system, to obtain unsaturated DoS.
+
+### Distributed Denial-of-Service Attack (DDoS)
+- A distributed denial-of-service (DDoS) attack is a large-scale, coordinated attack on the availability of services on a target’s system or network resources. It is launched indirectly through many compromised computers on the Internet. The services under attack are those of the “primary target,” while the compromised systems used to launch the attack are often called the “secondary target.” The use of secondary targets in performing a DDoS attack provides the attacker with the ability to wage a larger and a more disruptive attack, while making it more difficult to track them.
+####  Network-centric attack
+- A network-centric attack targets the bandwidth of a network or service by flooding the network infrastructure with an immense volume of traffic. This overwhelms routers, switches, and other network components, thereby consuming the network's bandwidth capacity. 
+#### Application-centric attack
+- An application-centric DDoS attack targets the application layer of a service or server. Attackers send a high volume of requests or transactions to specific applications or services hosted on servers.
+
+### Malware Attacks
+- Malware is a piece of malicious software that is designed to perform activities as intended by the attacker without user consent. It appears in the form of executable code, active content, scripts, or other forms of software. The attacker compromises system security, intercepts computer operations, gathers sensitive information, modifies, delete or add content to a website, take control of a user’s computer, and so on.
+#### Virus
+- A virus is a type of program that can duplicate itself by making copies of itself. The major criterion for categorizing a piece of executable code as a virus is that it replicates itself through hosts. A virus can only spread from one PC to another when its host is taken to the uncorrupted computer.
+#### Armored Virus
+- An armored virus is a type of computer virus that is specifically coded with different mechanisms to make its detection difficult. It fools antivirus programs, making them believe the armored virus is located somewhere else in memory and making it difficult to detect and remove.
+#### Trojan
+- A Trojan is a malicious program that masquerades as legitimate software. A Trojan horse attack is termed as a “serious threat to system security.” A victim may be under attack from the Trojan, but they could also be used as an intermediary to attack others (without the knowledge of the victim). Most Trojans consist of two parts: server and a client. A server is a program that gets installed on the infected system. The client is also a program that is located on the attacker’s computer. Both the server and client are used to establish a connection between the attacker and a victim’s system via the Internet.
+#### Adware
+- Adware is a software program that tracks the user’s browsing patterns for marketing purposes and displaying advertisements. It collects the user’s data, such as what types of Internet sites the user visits in order to customize the adverts that are relevant to the user. Legitimate software is embedded with adware programs to generate revenue.
+#### Spyware
+- Spyware is a piece of software code that extracts the user’s information and sends it to attackers. It enables pop-up advertisements to appear, modifies computer settings, redirects users to fake webpages or changes the home page of the browser. Users are not aware of spyware being installed on their computer. Most of the time, spyware is used to track cookies and display unwanted pop-up ads. Its presence is hidden from the user, and it is difficult to detect.
+#### Rootkits
+- Rootkit is a software program that hides its activities from detection and performs malicious activities to get privileged access to a target computer. It hides the fact that the operating system is compromised by the attackers. A successful rootkit can potentially remain in place for years if it remains undetected.
+#### Backdoors
+- Attackers create backdoors to compromise the security of the target systems and gain access to a network illegitimately. Attackers insert small programs that bypass the authentication check such as gaining administrative privileges without passwords. The attacker installs programs and controls the victim’s computer remotely. Attackers use backdoors to get access to a network and keep returning by using the same exploit.
+#### Logic Bomb
+- A logic bomb is a piece of software code that performs a malicious action when a logic condition is satisfied. When a logic bomb explodes, it unauthentic message, delete data or completely reformat hard drives, send sensitive information to untrusted parties, disable a network for a certain length of time, and cause harm to the target computer.
+#### Botnets
+- A botnet is a collection of compromised computers connected to the Internet to perform a distributed task. Attackers distribute malicious software that turns a user’s computer into bots. A bot refers to a program or an infected system that performs repetitive work or acts as an agent or as a user interface to control other programs.
+#### Ransomware
+- Ransomware is a type of malicious software that locks or encrypts valuable files available in the victim’s computer until a ransom is paid. Unlike other malwares, it does not hide, and it displays a message on the infected system that “your files are taken away for ransom and you need to pay money in order to decrypt it.” It redirects victims to different sites and provides information regarding how to make payment to recover the data back. During payment, attackers often collect credit card details that may result in further financial losses.
+#### Polymorphic Malware
+- Polymorphic malware is a destructive and intrusive malware code that changes its signature to avoid pattern matching detection by antivirus programs. The functionality remains the same even though its signature changes. For example, a spyware program working as a keylogger continues to perform the same action, even if its signature changes.
+
+### Advanced Persistent Threats (APTs)
+- In Advanced persistent threat, the attacker gains unauthorized access to a target network and remains there undetected for a long period of time. In APT, the word “advanced” signifies the use of techniques to exploit the underlying vulnerabilities in the system. The word “persistent” signifies the external command and control (C&C) system that continuously extracts the data and monitors the victim’s network. T
+
+#### Characteristics of Advanced Persistent Threats (APTs)
+- Objectives, Timeliness, Resources, Risk Tolerance, Skills and Methods,  Actions, Attack Origination Points, Numbers Involved in the Attack,  Knowledge Source,  Multiphase, Tailored to the Vulnerabilities, Multiple Points of Entries, Evading Signature-based Detection Systems
+
+
+  
+  
+
+
+
