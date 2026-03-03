@@ -209,6 +209,35 @@ resources by exploiting algorithms, structure, authentication protocols, and so 
 <img width="937" height="443" alt="image" src="https://github.com/user-attachments/assets/a9dc4616-8d75-4480-a19a-11259bbabb2c" />
 
 
+### OWASP Top 10 Web Application Security Risks
+- Broken Access Control, Cryptographic Failures,  Injection, Insecure Design, Security Misconfiguration, Vulnerable and Outdated Components,  Identification and Authentication Failures,  Software and Data Integrity Failures, Security Logging and Monitoring Failures, Server-Side Request Forgery (SSRF).
+
+#### Email Attacks: Phishing
+#### Email Attacks: Malicious Email Attachments
+#### Email Attacks: Malicious User Redirection
+- Emails may contain links, which on clicking may redirect the user to websites hosting malware.(Referrer based, User agent based, Cookie based, OS based
+#### Email Attacks: Spamming
+
+### Insider Attacks
+- Malicious insider, Negligent insider, Compromised insider
+
+### Espionage Attack
+- An espionage attack involves insiders leaking confidential or sensitive information to external parties, such as competitors or foreign agents.
+- Information leakage, External parties
+### Malicious Software Installation
+- Installation of malware/spyware, Compromising systems and stealing information
+
+<img width="795" height="441" alt="image" src="https://github.com/user-attachments/assets/6d8800c9-9c7b-44ad-8df7-1fc46015b936" />
+
+### Network Attack IoCs
+- Network indicators are useful for command and control, malware delivery, identifying details about the operating system, browser type, and other computer-specific information.
+
+<img width="1045" height="780" alt="image" src="https://github.com/user-attachments/assets/540c7430-94a2-40df-bcff-452dde4e92d3" />
+<img width="1046" height="350" alt="image" src="https://github.com/user-attachments/assets/9127ec76-1537-4bed-a389-f71ad350e336" />
+
+### Host Attack IoC’s
+- Host-based indicators are found by performing analysis on the infected system within the organizational network.
+
 
 
 
