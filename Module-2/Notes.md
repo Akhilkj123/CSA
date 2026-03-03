@@ -238,6 +238,10 @@ resources by exploiting algorithms, structure, authentication protocols, and so 
 ### Host Attack IoC’s
 - Host-based indicators are found by performing analysis on the infected system within the organizational network.
 
+<img width="884" height="683" alt="image" src="https://github.com/user-attachments/assets/2fefd4db-1bdb-441b-a355-4a9d02894c4f" />
+<img width="889" height="488" alt="image" src="https://github.com/user-attachments/assets/99387d64-7716-4eda-9b3d-dd9957cf395d" />
+
+### Application Attack IoC’s 
 
 
 
