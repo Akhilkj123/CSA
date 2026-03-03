@@ -242,7 +242,7 @@ resources by exploiting algorithms, structure, authentication protocols, and so 
 <img width="889" height="488" alt="image" src="https://github.com/user-attachments/assets/99387d64-7716-4eda-9b3d-dd9957cf395d" />
 
 ### Application Attack IoC’s 
-
+- 
 
 
 
