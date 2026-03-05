@@ -242,14 +242,43 @@ resources by exploiting algorithms, structure, authentication protocols, and so 
 <img width="889" height="488" alt="image" src="https://github.com/user-attachments/assets/99387d64-7716-4eda-9b3d-dd9957cf395d" />
 
 ### Application Attack IoC’s 
+- Application attack IoC’s detect deviations from normal behavior within software applications, such as abnormal requests, suspicious user activities, or unexpected changes in code.
+
+<img width="580" height="288" alt="image" src="https://github.com/user-attachments/assets/43af2427-5875-4108-926f-482166cac1ac" />
+<img width="353" height="278" alt="image" src="https://github.com/user-attachments/assets/316ce5fb-9f7e-4937-982e-832587c9a90d" />
+
+### Social Engineering Attack IoC's
+- Social Engineering IoC’s are identified by monitoring human interactions and detecting behavioral anomalies.
+
+<img width="644" height="184" alt="image" src="https://github.com/user-attachments/assets/3093a302-dc2a-441e-a787-dee7701aa74e" />
+<img width="423" height="226" alt="image" src="https://github.com/user-attachments/assets/b4147f7e-0f04-4e7a-9e76-47e444e8b2a1" />
+<img width="424" height="193" alt="image" src="https://github.com/user-attachments/assets/2f7d652c-3af6-4c77-beba-50d082cdd794" />
+
+###  Email Attack IoC’s 
+- Email Attack IoC’s are signs of potential security breaches within email communications. 
+
+<img width="421" height="265" alt="image" src="https://github.com/user-attachments/assets/d382f2c8-5b4b-49c7-b18e-cf601648d01f" />
+<img width="425" height="253" alt="image" src="https://github.com/user-attachments/assets/9df2c755-047c-4ef5-a3ba-d29b447a8635" />\
+<img width="424" height="288" alt="image" src="https://github.com/user-attachments/assets/ee79985c-132f-4633-b9ce-78128aa6267c" />
+
+### Insider attack IoC's
+- IoCs associated with insider threats often involve subtle deviations in behavior, rather than clear-cut malicious actions; therefore, behavior analysis is a critical approach for identifying and mitigating insider threats. 
+
+<img width="517" height="127" alt="image" src="https://github.com/user-attachments/assets/0fe439ed-7534-4399-8669-e767c3277b99" />
+<img width="517" height="341" alt="image" src="https://github.com/user-attachments/assets/1c1e3c4f-77ba-42e6-ad00-f24f3c6b2a73" />
+<img width="515" height="200" alt="image" src="https://github.com/user-attachments/assets/d4b5e78a-4054-426d-b7cc-d7c0e1bff651" />
+
+## Understand Attacker’s Hacking Methodology
+### EC-Council’s-Hacking Methodology
+####  Reconnaissance
+- Reconnaissance refers to the preparatory phase in which an attacker gathers as much information as possible about the target prior to launching the attack. In this phase, the attacker draws on competitive intelligence to learn more about the target.
+#### Scanning
+- Scanning is the phase immediately preceding the attack. Here, the attacker uses the details gathered during reconnaissance to scan the network for specific information. Scanning is a logical extension of active reconnaissance, and in fact, some experts do not differentiate scanning from active reconnaissance.
+#### Gaining Access
+- This is the phase in which real hacking occurs. Attackers use vulnerabilities identified during the reconnaissance and scanning phase to gain access to the target system and network. Gaining access refers to the point where the attacker obtains access to the operating system or applications on the computer or network.
+####  Maintaining Access
+- Maintaining access refers to the phase when the attacker tries to retain his or her ownership of the system. Once an attacker gains access to the target system with admin/root level privileges (thus owning the system), he or she is able to use both the system and its resources at will and can either use the system as a launch pad to scan and exploit other systems, or to keep a low profile and continue exploiting the system.
+### Lockheed Martin’s - Cyber Kill Chain Methodology
 - 
-
-
-
-
-
-
-
-
 
 
