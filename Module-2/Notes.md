@@ -279,6 +279,30 @@ resources by exploiting algorithms, structure, authentication protocols, and so 
 ####  Maintaining Access
 - Maintaining access refers to the phase when the attacker tries to retain his or her ownership of the system. Once an attacker gains access to the target system with admin/root level privileges (thus owning the system), he or she is able to use both the system and its resources at will and can either use the system as a launch pad to scan and exploit other systems, or to keep a low profile and continue exploiting the system.
 ### Lockheed Martin’s - Cyber Kill Chain Methodology
-- 
+
+<img width="391" height="160" alt="image" src="https://github.com/user-attachments/assets/2d3096ee-874c-4dd1-85e0-7023a417d35a" />
+
+### Unified Kill Chain
+#### In (first phase)
+-  Reconnaissance, Resource development, Delivery, Social engineering, Exploitation, Persistence, Defense evasion, Command & control (C2).
+#### Through (second phase)
+- Pivoting, Discovery, Privilege escalation, Execution, Credential access, Lateral movement.
+#### Out (third phase)
+-  Collection, Exfiltration, Impact, Objectives.
+
+### MITRE D3FEND Framework
+- The MITRE D3FEND framework, developed by the MITRE Corporation, is a cybersecurity framework that provides a structured approach to implementing defensive measures. As a counterpart to the widely recognized MITRE ATT&CK framework, which categorizes adversarial tactics and techniques, D3FEND focuses on defensive strategies.
+####  Model Tactics
+- Asset inventory (D3-AI), Network mapping (D3-NM), Operational activity mapping (D3-OAM), System mapping (D3-SYSM).
+#### Harden Tactics
+- Application hardening (D3-AH), Credential hardening (D3-CH), Message hardening (D3-MH), Platform hardening (D3-PH)
+#### Detect Tactics
+-  File analysis (D3-FA),  Identifier analysis (D3-ID), Message analysis (D3-MA),  Network traffic analysis (D3-NTA), Platform monitoring (D3-PM),  Process analysis (D3-PA), User behavior analysis (D3-UBA)
+####  Isolate Tactics
+-  Execution isolation (D3-EI), Network isolation (D3-NI)
+### Diamond Model of Intrusion Analysis
+- The Diamond Model provides a systematic approach to analyzing cyber intrusions, offering valuable insights into the nature of the attack, and guiding effective response and mitigation efforts. It provides a comprehensive approach to analyzing and mitigating cyber threats by focusing on four core components: Adversary, Victim, Capability, and Infrastructure.
+
+<img width="356" height="195" alt="image" src="https://github.com/user-attachments/assets/a35f1809-6723-4deb-aa72-4bf0b9539a4d" />
 
 
