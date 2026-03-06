@@ -71,9 +71,96 @@ logs do not represent any fault.
 - These are the events that are received from other systems present on the same network.
 #### Custom log
 -  A custom log facilitates an application to change the size of the log or add ACLs without influencing the other applications.
+<img width="336" height="305" alt="image" src="https://github.com/user-attachments/assets/7af728fc-589e-463e-b7d4-73b9d5a926ed" />
 
+### Different Linux Log File
+#### /var/log/messages or /var/log/syslog
+- This log file contains general messages and system-related stuff. It stores all informational and noncritical messages across the global system such as system error messages, system startups and shutdowns, changes in the network configuration, etc. I
+#### /var/log/auth.log or /var/log/secure
+- This log file contains authentication logs, including both successful and unsuccessful user login attempts, and authentication techniques. This file is beneficial if want to examine brute-force attacks and other vulnerabilities related to user authorization mechanism
+####  /var/log/kern.log
+- This file stores information that is logged kernel. This file is helpful in solving kernel-related errors and warnings, and hardware and connectivity problems.
+####  /var/log/cron.log
+- This file contains information about all Crond-related messages (cron jobs).
+####  /var/log/qmail/
+- It is a directory that stores information related to qmail logs. This directory is helpful if want to track all emails sent through a qmail system or require the list of every message transmitted by the server or want to determine the number of messages that were processed.
+#### /var/log/maillog or /var/log/mail.log
+- This file stores information related to mail servers. This file is helpful if want to check information regarding postfix, smtpd, MailScanner, and other email-related services. It keeps records of all emails that were sent or received within a time zone.
+#### /var/log/httpd/
+- It is a directory that stores information related to apache web server. Apache web server stores information in two log files: access_log and error_log. This directory provides detailed information about events and errors raised during processing httpd requests.
+#### /var/log/lighttpd/
+- It is a directory that stores information related to light HTTPD access_log and error_log
+####  /var/log/boot.log
+- This file stores all information related to system booting. The booting messages are sent by system initialization script, /etc/init.d/bootmisc.sh, to this log file. This file is helpful if want to troubleshoot problems of improper shutdown, booting failures, or unplanned reboots. B
+####  /var/log/mysqld.log
+- This file stores all debug, failure, and success messages about [mysqld] and [mysqld_safe] daemon. This file is helpful if want to detect issues related to starting, running, and stopping mysqld.
+#### /var/log/utmp or /var/log/wtmp
+ - This file stores information related to user login/logout. This file is helpful if want to determine the current login state.
+#### /var/log/yum.log
+- All information related to installation of a package using yum command is stored in this file. This file is useful if want to check whether a package is installed correctly or not, and also supports identifying and solving problems of software installations.
+### Severity Level and Value of Linux Logs
+- The combination of Linux logs' file(s) and severity levels facilitates determining what is logged and where that information has gone.
+<img width="656" height="285" alt="image" src="https://github.com/user-attachments/assets/55151af0-ef5e-4bf0-8c45-68db9433b9f0" />
 
+### Types of Logs in Mac 
+#### Security logs 
+- Mac security-related log information is saved in secure.log file and found in **/private/var/log directory**.
+#### Firewall logs
+- Firewall log data are stored in appfirewall.log file and found at /private/var/log/appfirewall.log. appfirewall.log is a built-in firewall that can log large amount of data, using a program called appfwloggerd.
+#### User-specific logs
+- User's home directory contains OS component and third-party applications' log information that are found in the ~/Library/Logs folder. These logs are accessible only by specific users, as they are stored under that user's folder.
+#### Command line logs
+- Look at the command line history for each user to check command line information. All command line logs are saved in .bash_history file and it is found in root users' home directory.
+#### Shared application logs
+- /Library folder encompasses many shared application libraries and contains different types of logs that correspond to components shared across multiple applications, for example, CrashReporter logs, the information related to application crash, server, and directory service logs.
 
+### Mac Log Files
+#### crashreporter.log 
+- Mac OS has a standard crash reporter located in /System/Library/CoreServices/Crash Reporter.app. It sends a warning to notify that "[App] has quit unexpectedly." To check out the crash report immediately, either click on the “Report..." button or use console app. To view the crash report in console app, click on the "User Reports" in the left menu. All files related to crash have extension “. crash" and include the date and crashed application in the title.
+#### AccessLog
+- It is a directive that sets the name of the access log file. In case, the name of the file is not absolute, it is considered as relative to the ServerRoot directory. It is saved in common log format and can be utilized in producing reports on Common UNIX Printing System (CUPS) server operations. 
+#### ErrorLog
+- It is a directive that sets the name of the error log file. In case, the name of the file is not absolute, it is considered as relative to the ServerRoot directory. A filename can also include server name by using %s like ErrorLog /var/log/cups/error_log-%s.
+#### Daily.out log
+- These log files are generated based on the daily activities performed overnight when the user system is running but not logged in. It stores network interface history and is in /var/log/daily.out.
+#### log.nmbd
+- This type of file contains Samba (Windows-based machine) connection information. It is stored in /var/log/samba/log.nmbd.
+#### Logs
+- This is a home directory that contains users and application-specific logs. These are plain-text files stored in ~/Library/Logs.
 
+## Understand and Analyze Local Logging Practices: Firewall and Router Logs
+### Local Logging: Firewall Logs
+<img width="462" height="241" alt="image" src="https://github.com/user-attachments/assets/ee1c2983-6d6c-4ee3-986e-12388bb1d901" />
+#### Monitoring and Analysis of Firewall Logs 
+#### Windows Firewall Log 
+- Windows Firewall (if enabled) logs all activities occurred in a network/system. These logs are useful in identifying suspicious and malicious activities, but they do not provide information to monitor the source of an activity.
+<img width="244" height="265" alt="image" src="https://github.com/user-attachments/assets/8078bdbd-99d6-4c11-a98f-ce787ba4de5b" />
 
-  
+<img width="252" height="294" alt="image" src="https://github.com/user-attachments/assets/5b2aa4f4-8cd9-4990-9520-0ef5cb650b94" />
+
+### Monitoring and Analysis of Windows Firewall Log 
+- From the available firewall log information, only some part of the information is important for analysis and monitoring malicious activity or debugging application failures. During analysis, if detect any suspicious activity, then open the firewall log file in any text editor (Notepad, by default) to troubleshoot the issue.
+#### Header
+<img width="457" height="176" alt="image" src="https://github.com/user-attachments/assets/585ef723-94f2-414c-a6e9-7c5a983a4e07" />
+
+#### Body
+<img width="456" height="121" alt="image" src="https://github.com/user-attachments/assets/2cb8a156-3d8a-46b1-950c-5db8cb0ff0cd" />
+
+<img width="454" height="270" alt="image" src="https://github.com/user-attachments/assets/dda65a32-cd4a-4022-9ec0-4feb559dd381" />
+
+### Linux Firewall: Iptables
+<img width="457" height="313" alt="image" src="https://github.com/user-attachments/assets/5bd9c0ab-c9d8-4329-9bd1-2a74e8a43c22" />
+
+<img width="460" height="164" alt="image" src="https://github.com/user-attachments/assets/03e0ac34-138d-48c9-83af-38f86846216a" />
+
+### Monitoring and Analysis of IP Tables logs
+
+<img width="399" height="280" alt="image" src="https://github.com/user-attachments/assets/41c0879f-79e5-429f-a886-739137b65b4d" />
+
+### Cisco ASA Firewall
+- Cisco ASA firewalls support multiple levels of logging. It helps to address the issue by addressing the most critical events first.
+
+<img width="422" height="308" alt="image" src="https://github.com/user-attachments/assets/b091e692-3d85-4d14-ad6d-fe631a372b33" />
+
+#### CISCO Firewall Log Format 
+- 
