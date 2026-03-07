@@ -162,5 +162,19 @@ logs do not represent any fault.
 
 <img width="422" height="308" alt="image" src="https://github.com/user-attachments/assets/b091e692-3d85-4d14-ad6d-fe631a372b33" />
 
-#### CISCO Firewall Log Format 
-- 
+### Mac OS Firewall Logs 
+- Mac OS has a built-in firewall that helps monitor and analyze the associated logs with the system firewall. Mac OS has a built-in firewall that helps user monitor and analyze the associated logs with the system firewall.
+
+<img width="829" height="280" alt="image" src="https://github.com/user-attachments/assets/33c772f3-8707-4a5c-971d-073f379d572e" />
+
+## Understand and Analyze Local Logging Practices: Web Server, Database, and Email
+### Web Server Logs: Internet Information Services (IIS)
+
+<img width="711" height="417" alt="image" src="https://github.com/user-attachments/assets/448c1db6-c5f1-496d-b161-dc5c8c8adbb6" />
+
+### Apache Logs
+#### Apache access log
+
+
+
+
