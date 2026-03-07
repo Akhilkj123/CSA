@@ -174,6 +174,27 @@ logs do not represent any fault.
 
 ### Apache Logs
 #### Apache access log
+- This type of log records all incoming and processed requests into a log file. Its location and content are managed by the custom log directive.
+
+<img width="1069" height="632" alt="image" src="https://github.com/user-attachments/assets/10e4f91d-e4de-47e7-b039-36d1eeb2dffe" />
+
+#### Apache error log file
+- This type of log records the problems encountered on the server. It records both minor problems, such as startup and shutdown messages, and major problems, such as warning related to specific events and configuration.
+
+<img width="1057" height="592" alt="image" src="https://github.com/user-attachments/assets/642f3627-9341-4b99-974a-e67678a51aef" />
+
+#### Monitoring and Analysis of Apache Log
+- The Apache access and error logs provide actionable insights regarding potential server configuration and web application problems.
+
+<img width="745" height="527" alt="image" src="https://github.com/user-attachments/assets/4aea8e73-fca1-4c0a-830f-0d2ed0f87370" />
+
+### Database Logs: File Format
+
+![Uploading image.png…]()
+
+#### Types of SQL Server Database Logs
+-  Transaction log, Error log, Audit log, Security log, Backup log,  Maintenance log
+
 
 
 
